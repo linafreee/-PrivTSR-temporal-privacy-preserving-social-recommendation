@@ -6,7 +6,7 @@ The source code and datasets are released for the paper "A Novel Temporal Privac
 ### Usage:
 1. Environment: I have tested this code with python3.6
 2. Run PrivTSR: cd the sub-directory Code and create the corresponding folders first. Run the DP_data class and to_array (modify the parameter e). Run metapath_generation.py (modify the parameter e). Copy DP_trust/DP_user_friends.txt to the timestamp_metapath folder and replace all commas with spaces. Run embedding_generation.py (modify the parameter dim, etc.). Run the merge_embedding class (modify dim). Run model.py (modify dim).
-3. Note: The corresponding folders need to be created first. The timestamp_embedding is related to the dim of all_time_merge.
+3. Note: The timestamp_embedding is related to the dim of all_time_merge.
 
 ### Citation:
 1.The algorithm PrivTSR is from the paper:
